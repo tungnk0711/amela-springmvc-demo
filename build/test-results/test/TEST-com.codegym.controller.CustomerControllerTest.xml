@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.codegym.controller.CustomerControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-08-03T06:54:24" hostname="AircuaNguyen2" time="0.267">
+  <properties/>
+  <testcase name="findById_EntryFound()" classname="com.codegym.controller.CustomerControllerTest" time="0.233"/>
+  <testcase name="find_All_Test()" classname="com.codegym.controller.CustomerControllerTest" time="0.03"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Aug 03, 2021 1:54:20 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+Aug 03, 2021 1:54:20 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {5.3.0.Final}
+Aug 03, 2021 1:54:20 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Aug 03, 2021 1:54:21 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {5.0.3.Final}
+Aug 03, 2021 1:54:21 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Aug 03, 2021 1:54:22 PM org.hibernate.type.spi.TypeConfiguration$Scope setSessionFactory
+WARN: HHH000233: Scoping types to session factory org.hibernate.internal.SessionFactoryImpl@3695f067 after already scoped org.hibernate.internal.SessionFactoryImpl@3695f067
+Aug 03, 2021 1:54:23 PM org.hibernate.hql.internal.QueryTranslatorFactoryInitiator initiateService
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+]]></system-err>
+</testsuite>
